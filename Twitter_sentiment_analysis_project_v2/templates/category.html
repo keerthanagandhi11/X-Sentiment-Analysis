@@ -1,0 +1,34 @@
+<<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <title>category selection</title>
+   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/Resultstyle.css') }}">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    <h1>Choose a Category</h1>
+
+    <form action="/select_category" method="post">
+        <label for="category">Select a category:</label>
+        <select name="category" id="category">
+            <option value="kfc">KFC</option>
+            <option value="starbucks">Starbucks</option>
+            <option value="h&m">H&M</option>
+            <option value="pantaloons">Pantaloons</option>
+            <option value="leo">Leo</option>
+            <option value="vikram">Vikram</option>
+            <option value="samsung flip">Samsung Flip</option>
+            <option value="airpods">Airpods</option>
+            <option value="amazon">Amazon</option>
+            <option value="walmart">Walmart</option>
+        </select>
+
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <br>
+    <a href="/">Back to Home</a>
+</body>
+</html>

@@ -1,0 +1,80 @@
+
+* {
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    height: 83vh;
+    margin: 0;
+    padding: 0 5%;
+    background: linear-gradient(to right, #454647, #1f2325, #000304);
+}
+
+.card {
+    background-color: #919da996 !important;
+}
+
+.btn-primary {
+    color: #d9e5eb;
+    background-color: #ced2dd !important;
+    border-color: #c9ced5 !important;
+}
+
+.btn-graph {
+    background-color: #c6cdd5 !important;
+    margin-right: 10px;
+    margin-top: auto; 
+}
+
+.form-control {
+    background-color: #a6adb0db;
+}
+
+.container {
+    margin: 5% 0%;
+}
+
+.mainsection {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sub1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.sub2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.twitterimg {
+    margin: 20%;
+}
+
+.title {
+    margin: 2% 0 2% 1%;
+    width: 100%;
+    height: 10%;
+}
+
+.title-text {
+    width: 60%;
+}
+
+.big-text {
+    font-size: 50px;
+    color: #dfe6ed;
+    margin-bottom: 2%;
+}

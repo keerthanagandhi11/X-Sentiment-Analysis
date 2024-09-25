@@ -1,0 +1,31 @@
+
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #494c4c, #595c5e, #797474);
+  color: #0b0b0c;
+}
+
+#contact {
+  background: linear-gradient(to right, #767979, #8b8f91, #6a6767);
+  padding: 25px;
+  margin: 50px 0;
+}
+
+#contact h1 {
+  color: #101013;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.table {
+  width: 95%;
+  color: #0e0c0c;
+  margin: auto;
+  border: 1px solid #111414;
+}
